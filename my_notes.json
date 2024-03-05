@@ -1,5 +1,5 @@
 {
-    "amount": 4,
+    "amount": 5,
     "notes": [
         {
             "id": 1,
@@ -10,8 +10,8 @@
         {
             "id": 2,
             "name": "new note",
-            "text": "something",
-            "last_interaction_date": "04.03.2024 19:55"
+            "text": "new my text",
+            "last_interaction_date": "05.03.2024 10:16"
         },
         {
             "id": 3,
@@ -24,6 +24,12 @@
             "name": "wow",
             "text": "i like eating",
             "last_interaction_date": "04.03.2024 19:56"
+        },
+        {
+            "id": 5,
+            "name": "dog",
+            "text": "hot dog",
+            "last_interaction_date": "05.03.2024 10:13"
         }
     ]
 }

@@ -75,9 +75,11 @@ class Controller:
                                 'Ваш выбор: ')
                 if confirm == '1':
                     self.__dict['notes'][i]['name'] = input('Введите новый заголовок заметки: ')
+                    self.__dict['notes'][i]['last_interaction_date'] = datetime.now().strftime('%d.%m.%Y %H:%M')
                     print('Заметка обновлена')
                 elif confirm == '2':
                     self.__dict['notes'][i]['text'] = input('Введите новый текст заметки: ')
+                    self.__dict['notes'][i]['last_interaction_date'] = datetime.now().strftime('%d.%m.%Y %H:%M')
                     print('Заметка обновлена')
                 else:
                     self.update(name)
