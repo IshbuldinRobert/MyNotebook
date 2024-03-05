@@ -1,5 +1,5 @@
 {
-    "amount": 5,
+    "amount": 7,
     "notes": [
         {
             "id": 1,
@@ -15,21 +15,33 @@
         },
         {
             "id": 3,
-            "name": "my note",
-            "text": "my text",
-            "last_interaction_date": "04.03.2024 19:56"
-        },
-        {
-            "id": 4,
             "name": "wow",
             "text": "i like eating",
             "last_interaction_date": "04.03.2024 19:56"
         },
         {
-            "id": 5,
+            "id": 4,
             "name": "dog",
             "text": "hot dog",
             "last_interaction_date": "05.03.2024 10:13"
+        },
+        {
+            "id": 5,
+            "name": "zametka",
+            "text": "1234567890",
+            "last_interaction_date": "05.03.2024 10:59"
+        },
+        {
+            "id": 6,
+            "name": "123",
+            "text": "just do it, dude",
+            "last_interaction_date": "05.03.2024 12:01"
+        },
+        {
+            "id": 7,
+            "name": "login",
+            "text": "password",
+            "last_interaction_date": "05.03.2024 11:49"
         }
     ]
 }
